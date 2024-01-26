@@ -2,10 +2,8 @@
 
 ## Pasos para la ejecución 
 
-1- Asegurate te estar corriendo el back que contiene la base de datos que se utilizará para el programa 
-```
-https://github.com/FlorGubiotti/Back-TASKAPP
-```
+1- Asegurate te estar corriendo el [back](https://github.com/FlorGubiotti/Back-TASKAPP) que contiene la base de datos que se utilizará para el programa 
+
 2- Instalar las dependencias necesarias: 
 
 - `npm i react-bootstrap bootstrap`
