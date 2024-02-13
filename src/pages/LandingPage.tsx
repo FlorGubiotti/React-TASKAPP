@@ -4,6 +4,7 @@ import CategoriasSelector from '../components/CategoriasSelector/CategoriasSelec
 import CategoriasTareas from '../components/CategoriasTareas/CategoriasTareas';
 import { Task } from '../types/Task';
 import CarouselHome from '../components/CarouselHome/CarouselHome';
+import AccordionHome from '../components/Accordion/AccordionHome';
 
 
 const LandingPage = () => {
@@ -34,6 +35,7 @@ const LandingPage = () => {
   return (
     <>
       <CarouselHome/>
+      <AccordionHome tasks={filteredTasks.length > 0 ? filteredTasks : tasks}/>
       <CategoriasSelector onSelectCategory={setSelectedCategory} />
       <CategoriasTareas tasks={filteredTasks.length > 0 ? filteredTasks : tasks} />
     </>
